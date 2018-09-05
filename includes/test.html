@@ -1,0 +1,109 @@
+<html>
+
+<head>
+    <meta lang="en" charset="utf-8">
+    <meta name="keyword" content="Currency, converter, Money, NSIT, API">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src=""></script>
+    <link rel="stylesheet" type="text/css" href="">
+    <link href="https://fonts.googleapis.com/css?family=Roboto|Roboto+Slab" rel="stylesheet">
+    <script>
+
+
+        $(document).ready(function () {
+
+
+    </script>
+    <style type="text/css">
+
+    </style>
+</head>
+
+<body>
+<div class="container-fluid">
+    <h2>ვალუტის კონვერტაცია</h2>
+    <section class="row text-center">
+        <div class="border">
+            <form action="" get>
+                <input type="text" id="money" placeholder="Enter value" value="1" required>
+                <br class="rwd-break"/>
+                <select name="currency_from" id="from">
+                    <option value="GEL" title="Georgian Lari">GEL</option>
+                    <option value="USD" title="United States Dollar">USD</option>
+                    <option value="EUR" title="Euro">EUR</option>
+                    <option value="GBP" title="British Pound">GBP</option>
+                    <option value='RUB' title='Russian Ruble'>RUB</option>
+                    <option value='TRY' title='Turkish Lira'>TRY</option>
+                    <option value='AZN' title='Azerbaijani Manat'>AZN</option>
+                </select>
+                <a class="btn" id="swap">⇆</a>
+                <select name="currency_to" id="to">
+                    <option value="USD" title="United States Dollar">USD</option>
+                    <option value="EUR" title="Euro">EUR</option>
+                    <option value="GBP" title="British Pound">GBP</option>
+                    <option value='RUB' title='Russian Ruble'>RUB</option>
+                    <option value='TRY' title='Turkish Lira'>TRY</option>
+                    <option value='AZN' title='Azerbaijani Manat'>AZN</option>
+                    <option value="GEL" title="Georgian Lari">GEL</option>
+                </select>
+                <br class="rwd-break"/>
+                <button class="btn" id="sub">ნახვა</button>
+                <hr class="line-orange-center">
+                <div class="tbl-header">
+                    <table cellpadding="0" cellspacing="0" border="0">
+                        <thead>
+                        <tr>
+                            <th>ვალუტა</th>
+                            <th>ყიდვა</th>
+                            <th>გაყიდვა</th>
+                        </tr>
+                        </thead>
+                    </table>
+                </div>
+                <div class="tbl-content">
+                    <table cellpadding="0" cellspacing="0" border="0">
+                        <tbody>
+                        <tr>
+                            <td><img src="https://a.radikal.ru/a00/1803/ec/d20c36db29ce.png">&nbsp;USD</td>
+                            <td>2.4250</td>
+                            <td>2.4350</td>
+                        </tr>
+                        <tr>
+                            <td><img src="https://d.radikal.ru/d11/1803/aa/965162a82742.png">&nbsp;EUR</td>
+                            <td>2.9900</td>
+                            <td>3.0100</td>
+                        </tr>
+                        <tr>
+                            <td><img src="https://c.radikal.ru/c12/1803/c3/358be624eeb2.png">&nbsp;GBP</td>
+                            <td>3.4080</td>
+                            <td>3.4380</td>
+                        </tr>
+                        <tr>
+                            <td><img src="https://b.radikal.ru/b37/1803/9c/9a382fd6eb65.png">&nbsp;RUB</td>
+                            <td>0.0412</td>
+                            <td>0.0442</td>
+                        </tr>
+                        <tr>
+                            <td><img src="https://d.radikal.ru/d34/1803/40/e6ec6faf95c5.png">&nbsp;TRY</td>
+                            <td>0.5840</td>
+                            <td>0.6140</td>
+                        </tr>
+                        <tr>
+                            <td><img src="https://a.radikal.ru/a27/1803/cf/5d9c00c86f23.png">&nbsp;AZN</td>
+                            <td>1.4100</td>
+                            <td>1.4350</td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </form>
+            <div id="here" class="row text-center">
+            </div>
+        </div>
+    </section>
+</div>
+
+</body>
+
+</html>
