@@ -1,2 +1,2 @@
-# wordpress-currency-exhcange-rate-plugin
-WordPress currency exchange rate plugin
+# wordpress-softgen-currency-exhcange-rate-plugin
+WordPress Softgen currency exchange rate plugin
